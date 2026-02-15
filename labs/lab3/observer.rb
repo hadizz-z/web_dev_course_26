@@ -46,8 +46,8 @@ end
 
 class CurrentConditionsDisplay
   # TODO: Реализуйте метод update
-  # Верните "Current conditions: #{temperature}°C, #{humidity}% humidity"
-
+  # Используйте значения из weather_station и верните
+  # "Current conditions: #{weather_station.temperature}°C, #{weather_station.humidity}% humidity"
   def update(weather_station)
     nil
   end

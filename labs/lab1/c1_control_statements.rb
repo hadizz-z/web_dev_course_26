@@ -3,7 +3,7 @@
 # ============================================
 # Выполните следующие упражнения, чтобы изучить управление потоком выполнения в Ruby.
 # Замените возвращаемые значения 'nil' своей реализацией.
-# Запустите этот файл командой: ruby control_statements.rb
+# Запустите этот файл командой: ruby c1_control_statements.rb
 
 # Упражнение 1: Конструкция if-else
 # Верните "positive" если число > 0, "negative" если < 0, "zero" если == 0
@@ -157,7 +157,7 @@ def run_tests
     tests_passed += 1
     puts "✓ Test 8 passed: process_numbers"
   else
-    puts '✗ Test 8 failed: process_numbers'
+    puts "✗ Test 8 failed: process_numbers"
   end
 
   # Test 9

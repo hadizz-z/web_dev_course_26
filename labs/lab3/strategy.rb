@@ -39,7 +39,7 @@ class PayPalPayment < PaymentStrategy
   end
 
   # TODO: Реализуйте метод pay
-  # Верните "Paid $#{amount} using PayPal account #{email}"
+  # Верните "Paid $#{amount} using PayPal account #{@email}"
   def pay(amount)
     nil
   end
@@ -51,7 +51,7 @@ class CryptoPayment < PaymentStrategy
   end
 
   # TODO: Реализуйте метод pay
-  # Верните "Paid $#{amount} using Crypto wallet #{wallet_address}"
+  # Верните "Paid $#{amount} using Crypto wallet #{@wallet_address}"
   def pay(amount)
     nil
   end
